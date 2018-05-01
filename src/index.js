@@ -13,7 +13,6 @@ const map = new mapboxgl.Map({
 });
 
 const marker = buildMarker('activity', [-87.638873, 41.894728]); // or [-87.6354, 41.8885]
-console.log('Marker: ', marker);
 marker.addTo(map);
 
 // const markerDomEl = document.createElement("div"); // Create a new, detached DIV
